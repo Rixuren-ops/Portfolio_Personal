@@ -99,3 +99,9 @@ export const IconCarousel = ({ size = 24, color = 'currentColor', className }: I
     <path d="M7 5V3M17 5V3M3 10h18" />
   </svg>
 );
+
+export const IconCode = ({ size = 24, color = 'currentColor', className }: IconProps) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className={className}>
+    <path d="M16 18l6-6-6-6M8 6L2 12l6 6" />
+  </svg>
+);

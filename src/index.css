@@ -1,23 +1,23 @@
-/* ── Paleta de colores Laura Hernández ── */
+/* ── Paleta dark mode azul oscuro ── */
 :root {
-  /* Purple scale */
-  --color-purple-deep: #2D1B69;     /* Índigo profundo */
-  --color-purple-mid: #6B21A8;      /* Púrpura medio */
-  --color-purple-light: #A855F7;    /* Púrpura vivo */
-  --color-purple-soft: #9333EA;     /* Púrpura suave */
+  /* Blue scale */
+  --color-purple-deep: #BAD4FD;     /* Azul claro — texto sobre fondo oscuro */
+  --color-purple-mid: #3B82F6;      /* Azul primario */
+  --color-purple-light: #60A5FA;    /* Azul medio */
+  --color-purple-soft: #93C5FD;     /* Azul suave */
 
-  /* Lilac scale */
-  --color-lilac-mid: #C084FC;       /* Lila medio */
-  --color-lilac-light: #EDE9FE;     /* Lila muy claro */
-  --color-lilac-border: #DDD6FE;    /* Bordes lila */
+  /* Surface scale */
+  --color-lilac-mid: #60A5FA;       /* Acento azul */
+  --color-lilac-light: #1D2D4A;     /* Superficies y fondos de tags */
+  --color-lilac-border: #1F3E6B;    /* Bordes */
 
   /* Backgrounds */
-  --color-bg: #F5F0FF;              /* Fondo con tinte morado */
-  --color-surface: #FFFFFF;
+  --color-bg: #0A0E1A;              /* Fondo principal */
+  --color-surface: #111827;         /* Cards / secciones */
 
   /* Text */
-  --color-text: #1E1033;
-  --color-text-muted: #6B7280;
+  --color-text: #E2E8F0;
+  --color-text-muted: #8B9CB8;
 
   /* Fonts */
   font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
