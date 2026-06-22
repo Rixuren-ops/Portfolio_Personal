@@ -20,35 +20,23 @@ const aptitudes = [
 
 const experiencias = [
   {
-    periodo: 'Enero 2025 – Actualidad',
+    periodo: 'Junio 2022 – Agosto 2023',
     empresa: 'Finac Finanzas y Actuaría S.A.S.',
-    cargo: 'Coordinador de Productos de Software',
+    cargo: 'Profesional I de Desarrollo – Productos de software',
     ubicacion: 'Bogotá, Colombia',
-    items: [
-      'Desarrollo y mantenimiento de aplicaciones de escritorio y web utilizando C# y F#, principalmente bajo .NET Framework.',
-      'Identificación de errores, solución y mejoramiento de funcionalidades en las aplicaciones de la compañía.',
-      'Revisión de código al equipo para identificar errores, problemas de calidad, vulnerabilidades de seguridad y oportunidades de mejora.',
-      'Elaboración de documentación técnica y funcional: guías de implementación y especificaciones técnicas.',
-      'Análisis y delegación de requerimientos.',
-    ],
+    items: [],
   },
   {
     periodo: 'Agosto 2023 – Diciembre 2024',
     empresa: 'Finac Finanzas y Actuaría S.A.S.',
     cargo: 'Profesional II de Desarrollo – Productos de software',
     ubicacion: 'Bogotá, Colombia',
-    items: [
-      'Desarrollo y mantenimiento de aplicaciones de escritorio y web utilizando C# y F#, principalmente bajo .NET Framework.',
-      'Identificación de errores, solución y mejoramiento de funcionalidades en las aplicaciones de la compañía.',
-      'Revisión de código al equipo para identificar errores, problemas de calidad, vulnerabilidades de seguridad y oportunidades de mejora.',
-      'Elaboración de documentación técnica y funcional: guías de implementación y especificaciones técnicas.',
-      'Análisis y delegación de requerimientos.',
-    ],
+    items: [],
   },
   {
-    periodo: 'Junio 2022 – Agosto 2023',
+    periodo: 'Enero 2025 – Actualidad',
     empresa: 'Finac Finanzas y Actuaría S.A.S.',
-    cargo: 'Profesional I de Desarrollo – Productos de software',
+    cargo: 'Coordinador de Productos de Software',
     ubicacion: 'Bogotá, Colombia',
     items: [
       'Desarrollo y mantenimiento de aplicaciones de escritorio y web utilizando C# y F#, principalmente bajo .NET Framework.',
