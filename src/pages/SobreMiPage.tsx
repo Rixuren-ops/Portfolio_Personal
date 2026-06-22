@@ -11,6 +11,10 @@ const habilidades = {
   orm: ['Entity Framework Core', 'Entity Framework 6', 'Dapper', 'XPO'],
 };
 
+const idiomas = [
+  { nombre: 'Inglés', nivel: 'Intermedio' },
+];
+
 const aptitudes = [
   'Resolución de problemas',
   'Comunicación asertiva',
@@ -192,6 +196,18 @@ export default function SobreMiPage() {
             <h2 className={styles.sectionTitle}>Aptitudes</h2>
             <div className={styles.tags}>
               {aptitudes.map(a => <span key={a} className={`${styles.tag} ${styles.tagSoft}`}>{a}</span>)}
+            </div>
+          </section>
+
+          <section className={styles.section}>
+            <h2 className={styles.sectionTitle}>Idiomas</h2>
+            <div className={styles.idiomaList}>
+              {idiomas.map(i => (
+                <div key={i.nombre} className={styles.idiomaItem}>
+                  <span className={styles.idiomaNombre}>{i.nombre}</span>
+                  <span className={styles.idiomaNivel}>{i.nivel}</span>
+                </div>
+              ))}
             </div>
           </section>
         </div>

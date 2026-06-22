@@ -210,6 +210,35 @@
   margin-bottom: 0.25rem;
 }
 
+/* Idiomas */
+.idiomaList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.idiomaItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0.75rem;
+  background: var(--color-lilac-light);
+  border: 1px solid var(--color-lilac-border);
+  border-radius: 8px;
+}
+
+.idiomaNombre {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-purple-deep);
+}
+
+.idiomaNivel {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--color-purple-soft);
+}
+
 /* Projects */
 .projectList {
   display: flex;
