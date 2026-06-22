@@ -210,6 +210,31 @@
   margin-bottom: 0.25rem;
 }
 
+/* Projects */
+.projectList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.projectCard {
+  padding: 0.9rem 1rem;
+  background: var(--color-lilac-light);
+  border: 1px solid var(--color-lilac-border);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.projectName {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--color-purple-deep);
+  margin: 0;
+  line-height: 1.4;
+}
+
 /* Skills - tech tags */
 .skillGroups {
   display: flex;

@@ -48,6 +48,24 @@ const experiencias = [
   },
 ];
 
+const proyectos = [
+  {
+    nombre: 'Reportes Auditoría Superintendencia Financiera',
+    items: [
+      'Optimización en reportes de auditoría UIAF, Reportes 472 y 469.',
+      'Estructuración y desarrollo de reportes asociados al RITLB (419 y 420).',
+    ],
+  },
+  {
+    nombre: 'Optimización de procesos de valoración de instrumentos financieros',
+    items: [],
+  },
+  {
+    nombre: 'Implementación de seguridad bajo protocolos OAuth por medio de sistemas federados',
+    items: [],
+  },
+];
+
 const educacion = [
   {
     periodo: '2020 – En curso',
@@ -107,6 +125,22 @@ export default function SobreMiPage() {
                       ))}
                     </ul>
                   </div>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          <section className={styles.section}>
+            <h2 className={styles.sectionTitle}>Proyectos</h2>
+            <div className={styles.projectList}>
+              {proyectos.map((p, i) => (
+                <div key={i} className={styles.projectCard}>
+                  <h3 className={styles.projectName}>{p.nombre}</h3>
+                  {p.items.length > 0 && (
+                    <ul className={styles.timelineList}>
+                      {p.items.map((item, j) => <li key={j}>{item}</li>)}
+                    </ul>
+                  )}
                 </div>
               ))}
             </div>
